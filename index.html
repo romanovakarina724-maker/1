@@ -1,74 +1,72 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NFT MARKET</title>
-    <link
-      rel="stylesheet"
-      href="https://code.s3.yandex.net/web-code/fonts/fonts.css"
-    />
-    <link rel="stylesheet" href="styles/style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="overlay">
-        <h1 class="header-title">СО СКИДКАМИ</h1>
-      </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Market со скидками</title>
+    <!-- Подключение внешнего CSS файла -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <span>N</span> NFTGO
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Коллекции</a></li>
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Вайт-лист</a></li>
+                <li><a href="#">Создать NFT</a></li>
+                <li><a href="#">Топы</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
     </header>
-    <section class="content">
-      <div class="card">
-        <img
-          class="card-image"
-          src="https://code.s3.yandex.net/web-code/images/freetrack/04/card-1.jpg"
-          alt="Неоновые лампочки в виде символов светятся красным"
-        />
-        <h3 class="card-title">Пустота</h3>
-        <p class="card-text">
-          Простое правило, которое часто нарушают: ставить рядом элементы с
-          похожим смыслом и окружать их пустым пространством. Пустота — мощное
-          средство воздействия.
-        </p>
-      </div>
-      <div class="card no-right-margin">
-        <img
-          class="card-image"
-          src="https://code.s3.yandex.net/web-code/images/freetrack/04/card-2.jpg"
-          alt="Разметка теннисного корта крупным планом"
-        />
-        <h3 class="card-title">Сетка</h3>
-        <p class="card-text">
-          Размеры элементов и расстояния между ними укладываются в гармоничную
-          схему — её называют сеткой. Если элемент выпадает, зритель может это
-          заметить.
-        </p>
-      </div>
-      <div class="card">
-        <img
-          class="card-image"
-          src="https://code.s3.yandex.net/web-code/images/freetrack/04/card-3.jpg"
-        />
-        <h3 class="card-title">Шрифты</h3>
-        <p class="card-text">
-          Не больше трёх шрифтов на сайт. Один для заголовков, второй — для всех
-          остальных текстов, третий — для выделения важных слов. Должно хватить.
-        </p>
-      </div>
-      <div class="card no-right-margin">
-        <img
-          class="card-image"
-          src="https://code.s3.yandex.net/web-code/images/freetrack/04/card-4.jpg"
-        />
-        <h3 class="card-title">Цвета</h3>
-        <p class="card-text">
-          Обычно на сайте два цвета: ведущий и акцентный. Подобрать удачную
-          цветовую пару можно за счёт насмотренности или специальных
-          инструментов.
-        </p>
-      </div>
-    </section>
-    <footer class="footer">
-      <h4 class="footer-author">на этом все)</h4>
-    </footer>
-  </body>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>NFT MARKET<br>СО СКИДКАМИ</h1>
+                <div class="sale-badge">Sale -50%</div>
+                
+                <div class="hero-actions">
+                    <button class="btn btn-yellow">Купить NFT</button>
+                    <button class="btn btn-green">Галерея</button>
+                </div>
+
+                <p class="description">NFT — это уникальный токен, который подтверждает право владения цифровым объектом. Каждый NFT уникален и не может быть заменен другим, что делает его ценным активом на рынке цифровых товаров.</p>
+            </div>
+
+            <div class="hero-image">
+                <!-- Сюда нужно вставить реальное изображение персонажа в скафандре -->
+                <img src="images/character-space.png" alt="NFT персонаж в скафандре" class="main-character">
+            </div>
+        </section>
+
+        <section class="nft-grid">
+            <div class="nft-card">
+                <!-- Сюда нужно вставить изображение свиньи в стиле хип-хоп -->
+                <img src="images/pig-nft.png" alt="NFT Свинья" class="nft-img">
+                <div class="card-overlay">+</div>
+            </div>
+            <div class="nft-card">
+                <!-- Сюда нужно вставить изображение обезьяны в желтой одежде -->
+                <img src="images/monkey-nft.png" alt="NFT Обезьяна" class="nft-img">
+                <div class="card-overlay">+</div>
+            </div>
+            <div class="nft-card">
+                <!-- Сюда нужно вставить изображение персонажа в шляпе -->
+                <img src="images/hat-nft.png" alt="NFT Персонаж в шляпе" class="nft-img">
+                <div class="card-overlay">+</div>
+            </div>
+            <div class="nft-card last-card">
+                <!-- Сюда нужно вставить изображение Спанч Боба -->
+                <img src="images/spongebob-nft.png" alt="NFT Спанч Боб" class="nft-img">
+            </div>
+        </section>
+    </main>
+
+</body>
 </html>
